@@ -20,15 +20,15 @@ You should prepare both train and val datasets. The file struture should be like
 ```
 -$ROOT_PATH
   -Dataset_train
-	-JPEGImages
-	  -your images
-	-Annotations
-	  -your txt_file	
+    -JPEGImages
+      -your images
+    -Annotations
+      -your txt_file	
   -Dataset_val
-	-JPEGImages
-	  -your images
-	-Annotations
-	  -your txt_file
+    -JPEGImages
+      -your images
+    -Annotations
+      -your txt_file
 ```
 
 ### Usage
