@@ -33,7 +33,7 @@ You should prepare both train and val datasets. The file struture should be like
 
 ### Usage
 
-1) First, you should set the right path in `config.py`. 
+1) First, you should set the right path in `config.py` and the label names in `label_dict.py`. 
 
 2) Create `.tfrecord` files.
 ```
