@@ -76,7 +76,7 @@ def next_batch(batch_size, shortside_len, is_training):
         filename_tensorlist = tf.train.match_filenames_once(pattern)
         filename_queue = tf.train.string_input_producer(filename_tensorlist)
     else:
-        pattern = os.path.join(cfg.ROOT_PATH, cfg.TFRECORD_PATH, cfg.DATASET_NAME + '_test*')
+        pattern = os.path.join(cfg.ROOT_PATH, cfg.TFRECORD_PATH, cfg.DATASET_NAME + '_val*')
         print('tfrecord path is -->', os.path.abspath(pattern))
         filename_tensorlist = tf.train.match_filenames_once(pattern)
         filename_queue = tf.train.string_input_producer(filename_tensorlist)
